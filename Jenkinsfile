@@ -7,9 +7,9 @@ pipeline {
       }
     }
 
-    stage('Run Unit Tests') {
+    stage('Print Working Directory') {
       steps {
-        sh 'echo help'
+        sh 'pwd'
       }
     }
 
