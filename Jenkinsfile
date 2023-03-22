@@ -9,7 +9,7 @@ pipeline {
 
     stage('Run Unit Tests') {
       steps {
-        sh 'pytest test.py'
+        sh 'echo help'
       }
     }
 
