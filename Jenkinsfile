@@ -9,7 +9,7 @@ pipeline {
 
     stage('Run Unit Tests') {
       steps {
-        sh 'pwd'
+        sh 'echo help'
       }
     }
 
