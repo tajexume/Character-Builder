@@ -9,7 +9,7 @@ pipeline {
 
     stage('Run Unit Tests') {
       steps {
-        sh '#!bin/bash'
+        sh 'pytest test.py'
       }
     }
 
