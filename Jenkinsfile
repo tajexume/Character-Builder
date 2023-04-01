@@ -13,7 +13,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('error') {
       steps {
         sh 'python3 pytest service_unit_tests.py --junitxml=results.txt'
       }
